@@ -20,19 +20,6 @@ const person: User = {
   name: "Adam",
   age: 960,
 };
-
-interface User {
-  name: string;
-}
-
-interface User {
-  phone: number;
-}
-
-const person: User = {
-  name: "Adam",
-  age: 960,
-};
 ```
 কিন্তু `type` কীওয়ার্ড এর মাধ্যমে এমনটি করা যায় না। এটা শুধু `interface` এর মাধ্যমেই সম্ভব।
 **Example:**
@@ -125,4 +112,5 @@ function square(arg: unknown) {
 function throwError(message: string): never {
   throw new Error(message);
 }
+
 
