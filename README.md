@@ -1,4 +1,4 @@
-# What are some differences between interfaces and types in TypeScript?
+# 1What are some differences between interfaces and types in TypeScript?
 ## Interfaces এবং Types এর মধ্যে পার্থক্য কি?
 
 <p>Interface এবং Type দুটোই দেখতে একই রকম মনে হয় এবং দুটোই স্ট্রাকচার শেপ সঙ্গায়িত করার ক্ষেত্রে ব্যবহার করা যায়। কিন্তু এদের মধ্যে কিছু পার্থক্য রয়েছে:</p>
@@ -75,7 +75,8 @@ type C = A &
   type FuncType = () => void;
 ```
 
-  # `any`, `unknown`, `never` এর মধ্যে পার্থক্য কি?
+  # Explain the difference between any, unknown, and never types in TypeScript.
+  ## `any`, `unknown`, `never` এর মধ্যে পার্থক্য কি?
 
   **any:**
 
@@ -112,5 +113,6 @@ function square(arg: unknown) {
 function throwError(message: string): never {
   throw new Error(message);
 }
+
 
 
